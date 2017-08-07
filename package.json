@@ -1,0 +1,17 @@
+{
+  "name": "comet-specification",
+  "version": "1.0.0",
+  "description": "A (de)serializer for the CoMet comic metadata specification",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joe Pettersson",
+  "license": "MIT",
+  "dependencies": {
+    "joi": "^10.6.0",
+    "lodash": "^4.17.4",
+    "xml-parser": "^1.2.1",
+    "xmlbuilder": "^9.0.1"
+  }
+}
