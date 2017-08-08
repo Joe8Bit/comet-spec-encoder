@@ -1,4 +1,4 @@
-## comet-specification-serializer
+## comet-spec-encoder
 
 > WARNING: the CoMet spec is pretty terrible (lots of bugs and undefined behaviour [see below])
 

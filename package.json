@@ -1,10 +1,10 @@
 {
-  "name": "comet-specification",
+  "name": "comet-spec-encoder",
   "version": "1.0.0",
   "description": "A (de)serializer for the CoMet comic metadata specification",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "nyc --check-coverage --lines 100 ava"
   },
   "author": "Joe Pettersson",
   "license": "MIT",
@@ -13,5 +13,9 @@
     "lodash": "^4.17.4",
     "xml-parser": "^1.2.1",
     "xmlbuilder": "^9.0.1"
+  },
+  "devDependencies": {
+    "ava": "^0.21.0",
+    "nyc": "^11.1.0"
   }
 }
