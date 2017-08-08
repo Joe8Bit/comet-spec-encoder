@@ -28,7 +28,7 @@ const schema = Joi.object().keys({
     letterer: Joi.array().items(Joi.string()),
     inker: Joi.array().items(Joi.string()),
     colorist: Joi.array().items(Joi.string()),
-    coverImage: Joi.string().uri(),
+    coverImage: Joi.string(),
     lastMark: Joi.number().greater(-1),
     readingDirection: Joi.string().allow('ltr', 'rtl'),
 });
