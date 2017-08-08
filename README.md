@@ -8,8 +8,12 @@ This tool is designed to serialize to or from that specification into an 'easy t
 
 ### Usage
 
+```
+npm install -s comet-spec-encoder
+```
+
 ```javascript
-const comet = require('comet-specification-serializer');
+const comet = require('comet-spec-encoder');
 
 // See ./examples/ for an example for input/output
 
