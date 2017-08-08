@@ -11,8 +11,8 @@ module.exports = (intermediate) => {
         }
     });
 
-    Object.keys(refined).forEach((key) => {
-        let val = (Array.isArray(refined[key])) ? refined[key].join() : refined[key];
+    Object.keys(intermediate).forEach((key) => {
+        let val = (Array.isArray(intermediate[key])) ? intermediate[key].join() : intermediate[key];
         let item = comet.ele(key, val).up();
     });
 
