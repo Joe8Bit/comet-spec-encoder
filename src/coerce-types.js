@@ -2,7 +2,7 @@
 
 const fromIntermediateObj = (intermediate) => {
     if (intermediate.issue) intermediate.issue = parseInt(intermediate.issue, 10);
-    if (intermediate.issue) intermediate.volume = parseInt(intermediate.volume, 10);
+    if (intermediate.volume) intermediate.volume = parseInt(intermediate.volume, 10);
     if (intermediate.date) intermediate.date = new Date(intermediate.date);
     if (intermediate.price) intermediate.price = parseFloat(intermediate.price, 10);
     if (intermediate.pages) intermediate.pages = parseInt(intermediate.pages, 10);
