@@ -1,3 +1,3 @@
 'use strict';
 
-module.exports = require('xml-parser')
+module.exports = require('xml-parser');
