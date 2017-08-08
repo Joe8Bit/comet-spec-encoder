@@ -30,7 +30,7 @@
 <letterer>Jared Fletcher</letterer>
 <inker>Art Thibert</inker>
 <colorist>Art Lyon</colorist>
-<coverImage>BatmanWideningCover.jpg</coverImage>
+<coverImage>./BatmanWideningCover.jpg</coverImage>
 <lastMark>12</lastMark>
 <readingDirection>ltr</readingDirection>
 </comet>

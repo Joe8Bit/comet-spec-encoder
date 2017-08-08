@@ -38,6 +38,7 @@ The CoMet specification is relativley simple one, but it is still somewhat riddl
 * The specification makes a single attempt at also caturing reading state with the 'lastMark' property, but does not capture any more of the necessary state needed to capture a reading position (such as screen orientation, zoom level). It feels strange to capture state in an otherwise stateless specification
 * It is unclear if 'readingDirection' specifies the direction the comicbook should be read (e.g. front to back for western comics and back to front for manga) or on the page itself. They can be synonymous but there are cases (such as English translations of Japanese Manga) where they are mixed
 * The specification makes no mention of naming conventions for CoMet XML files
+* 'date' is unclear as to it's purpose, and several dates usually refer to a comic e.g. publish vs release date 
 
 Based on the above I've stuck to the specifcation as written and so there are idosyncracies.
 

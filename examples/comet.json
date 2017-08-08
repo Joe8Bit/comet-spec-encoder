@@ -1,0 +1,33 @@
+{ 
+    "error": null,
+    "value": {
+        "title": "Batman: The Widening Gyre, Part One: Turning and Turning",
+        "description": "The series opens with Deadshot breaking into Arkham Asylum with the intent to kill The Joker but is stopped by Onomatopoeia, who shoots him in the head.",
+        "series": "Batman: The Widening Gyre",
+        "issue": 1,
+        "volume": 1,
+        "publisher": "DC Comics",
+        "date": "Wed Aug 26 2009 01:00:00 GMT+0100 (BST)",
+        "genre": [ "Superhero" ],
+        "character": [ "Joker" ],
+        "isVersionOf": "Batman",
+        "price": 2.99,
+        "format": "Comic",
+        "language": "en",
+        "rating": "Teen",
+        "rights": "Copyright (c) 2009 DC Comics",
+        "identifier": "76194128380700111",
+        "pages": 36,
+        "creator": [ "Bob Kane" ],
+        "writer": [ "Kevin Smith" ],
+        "penciller": [ "Walt Flanagan" ],
+        "editor": [ "Dan Dideo" ],
+        "coverDesigner": "Bill Sienkiewicz",
+        "letterer": [ "Jared Fletcher" ],
+        "inker": [ "Art Thibert" ],
+        "colorist": [ "Art Lyon" ],
+        "coverImage": "./BatmanWideningCover.jpg",
+        "lastMark": 12,
+        "readingDirection": "ltr" 
+    }
+}
